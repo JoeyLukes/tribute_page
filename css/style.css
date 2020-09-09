@@ -2,3 +2,7 @@ body {
   font-family: sans-serif;
   font-weight: bold;
 }
+
+.grid-container {
+  display: grid;
+}
