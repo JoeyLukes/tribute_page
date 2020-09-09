@@ -4,7 +4,8 @@ body {
 }
 
 .grid-container {
-  display: inline-grid;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .grid-item {
