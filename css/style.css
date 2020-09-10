@@ -7,23 +7,21 @@ body {
 .grid-container {
   padding: 0 2em 2em 2em;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
-  justify-items: center;
-  align-items: center;
   grid-template-areas:
-              "navbar navbar navbar"
-              "splash splash splash"
-              "listimage1 description description"
-              "listimage2 description2 description2"
-              "listimage3 description3 description2"
-              "details details details"
-              "footer footer footer";
+              "navbar navbar"
+              "splash splash"
+              "listimage1 description"
+              "listimage2 description2"
+              "listimage3 description3"
+              "details details"
+              "footer footer";
 }
 
 
-.item1 {grid-area: navbar; }
-.item2 {grid-area: splash; }
+.nav {grid-area: navbar; }
+.splash {grid-area: splash; }
 .item3 {grid-area: listimage1; }
 .item4 {grid-area: description; }
 .item5 {grid-area: listimage2; }
