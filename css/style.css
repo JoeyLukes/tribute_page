@@ -9,6 +9,7 @@ body {
   grid-gap: 10px;
   background-color: #2196F3;
   display: grid;
+  border: 2px
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
   justify-items: center;
