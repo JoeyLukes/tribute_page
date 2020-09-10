@@ -6,16 +6,15 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    'navbar navbar'
-    'splash splash'
-    'listimage1 description'
-    'listimage2 description2'
-    'listimage3 description3'
-    'details details'
-    'footer footer';
-  padding: 10px
+    'navbar navbar navbar'
+    'splash splash splash'
+    'listimage1 description description'
+    'listimage2 description2 description2'
+    'listimage3 description3 description2'
+    'details details details'
+    'footer footer footer';
 }
 
 
