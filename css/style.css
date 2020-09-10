@@ -14,7 +14,6 @@ body {
   justify-items: center;
   align-items: center;
   grid-template-areas:
-              "navbar navbar"
               "splash splash"
               "listimage1 description"
               "listimage2 description2"
@@ -24,9 +23,6 @@ body {
 }
 
 
-.nav {grid-area: navbar;
-border: 2px #000000;
-}
 .splash {grid-area: splash;}
 .item3 {grid-area: listimage1; }
 .item4 {grid-area: description; }
