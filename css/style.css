@@ -12,13 +12,13 @@ body {
   justify-items: center;
   align-items: center;
   grid-template-areas:
-    "navbar navbar navbar"
-    "splash splash splash"
-    "listimage1 description description"
-    "listimage2 description2 description2"
-    "listimage3 description3 description2"
-    "details details details"
-    "footer footer footer";
+              "navbar navbar navbar"
+              "splash splash splash"
+              "listimage1 description description"
+              "listimage2 description2 description2"
+              "listimage3 description3 description2"
+              "details details details"
+              "footer footer footer";
 }
 
 
