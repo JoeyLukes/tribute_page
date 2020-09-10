@@ -3,16 +3,16 @@ body {
   font-weight: bold;
 }
 
-.item1 {grid-area: navbar;}
-.item2 {grid-area: splash;}
-.item3 {grid-area: listimage1;}
-.item4 {grid-area: description;}
-.item5 {grid-area: listimage2;}
-.item6 {grid-area: description2;}
-.item7 {grid-area: listimage3;}
-.item8 {grid-area: description3;}
-.item9 {grid-area: details;}
-.item10 {grid-area: footer;}
+.item1 {grid-area: navbar; }
+.item2 {grid-area: splash; }
+.item3 {grid-area: listimage1; }
+.item4 {grid-area: description; }
+.item5 {grid-area: listimage2; }
+.item6 {grid-area: description2; }
+.item7 {grid-area: listimage3; }
+.item8 {grid-area: description3; }
+.item9 {grid-area: details; }
+.item10 {grid-area: footer; }
 
 .grid-container {
   display: grid;
