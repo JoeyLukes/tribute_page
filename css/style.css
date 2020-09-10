@@ -3,13 +3,23 @@ body {
   font-weight: bold;
 }
 
+
 .grid-container {
   display: grid;
-  padding: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'navbar navbar'
+    'splash splash'
+    'listimage1 description'
+    'listimage2 description2'
+    'listimage3 description3'
+    'details details'
+    'footer footer';
+  padding: 10px
 }
 
-.item1 {grid-column: 1 / span 2;
-grid-row: 1;}
+
+.item1 {grid-area: navbar; }
 .item2 {grid-area: splash; }
 .item3 {grid-area: listimage1; }
 .item4 {grid-area: description; }
@@ -19,11 +29,6 @@ grid-row: 1;}
 .item8 {grid-area: description3; }
 .item9 {grid-area: details; }
 .item10 {grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  padding: 10px
-}
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
