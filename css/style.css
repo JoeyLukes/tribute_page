@@ -3,6 +3,11 @@ body {
   font-weight: bold;
 }
 
+.grid-container {
+  display: grid;
+  padding: 10px
+}
+
 .item1 {grid-area: navbar; }
 .item2 {grid-area: splash; }
 .item3 {grid-area: listimage1; }
@@ -16,14 +21,6 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-areas:
-    'navbar navbar navbar navbar'
-    'splash splash splash splash'
-    'listimage1 listimage1 description description'
-    'listimage2 listimage2 description2 description2'
-    'listimage3 listimage3 description3 description3'
-    'details details details details'
-    'footer footer footer footer';
   padding: 10px
 }
 
