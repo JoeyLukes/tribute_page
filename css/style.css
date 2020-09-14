@@ -23,6 +23,11 @@ body {
               "footer footer footer";
 }
 
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+}
+
 nav {display: flex;
 justify-content: space-around;}
 
