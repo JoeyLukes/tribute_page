@@ -24,7 +24,8 @@ body {
 }
 
 
-.navbar {grid=area: navbar;}
+.navbar {grid=area: navbar;
+justify-content: center;}
 .splash {grid-area: splash;}
 .item3 {grid-area: listimage1; }
 .item4 {grid-area: description; }
