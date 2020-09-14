@@ -27,7 +27,8 @@ nav {display: flex;
 justify-content: space-around;}
 
 
-.navbar {grid=area: navbar;}
+.navbar {grid=area: navbar;
+align-items: center;}
 .splash {grid-area: splash;}
 .item3 {grid-area: listimage1; }
 .item4 {grid-area: description; }
