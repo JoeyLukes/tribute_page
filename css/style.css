@@ -9,18 +9,18 @@ body {
   grid-gap: 10px;
   display: grid;
   border: 2px solid #000000;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1px;
   justify-items: center;
   align-items: center;
   grid-template-areas:
-              "navbar navbar"
-              "splash splash"
-              "listimage1 description"
-              "listimage2 description2"
-              "listimage3 description3"
-              "details details"
-              "footer footer";
+              "navbar navbar navbar"
+              "splash splash splash"
+              "listimage1 description description"
+              "listimage2 description2 description2"
+              "listimage3 description3 description3"
+              "details details details"
+              "footer footer footer";
 }
 
 nav {display: flex;
