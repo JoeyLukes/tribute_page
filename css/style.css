@@ -1,44 +1,11 @@
-body {
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-
-main {
-  padding: 0 2em 2em 2em;
-  grid-gap: 10px;
-  display: grid;
-  border: 2px solid #000000;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1px;
-  justify-items: center;
-  align-items: center;
+footer {
   text-align: center;
-  grid-template-areas:
-              "navbar navbar navbar"
-              "splash splash splash"
-              "listimage1 description description"
-              "listimage2 description2 description2"
-              "listimage3 description3 description3"
-              "details details details"
-              "footer footer footer";
+  padding: 1em 0 .3em 0;
 }
 
-.grid-container {
-  text-align: center;
-
+/*-- Main Menu Styles--*/
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-nav {display: flex;
-justify-content: space-around;}
-
-
-.navbar {grid-area: navbar;}
-.splash {grid-area: splash;}
-.item3 {grid-area: listimage1; }
-.item4 {grid-area: description; }
-.item5 {grid-area: listimage2; }
-.item6 {grid-area: description2; }
-.item7 {grid-area: listimage3; }
-.item8 {grid-area: description3; }
-.item9 {grid-area: details; }
-.item10 {grid-area: footer; }
