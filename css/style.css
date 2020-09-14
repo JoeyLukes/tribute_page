@@ -13,6 +13,7 @@ body {
   grid-gap: 1px;
   justify-items: center;
   align-items: center;
+  text-align: center;
   grid-template-areas:
               "navbar navbar navbar"
               "splash splash splash"
@@ -21,10 +22,6 @@ body {
               "listimage3 description3 description3"
               "details details details"
               "footer footer footer";
-}
-
-.grid-container > div {
-  text-align: center;
 }
 
 nav {display: flex;
