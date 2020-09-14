@@ -4,7 +4,7 @@ body {
 }
 
 
-.grid-container {
+main {
   padding: 0 2em 2em 2em;
   grid-gap: 10px;
   display: grid;
@@ -24,6 +24,10 @@ body {
               "footer footer footer";
 }
 
+.grid-container {
+  text-align: center;
+
+}
 nav {display: flex;
 justify-content: space-around;}
 
