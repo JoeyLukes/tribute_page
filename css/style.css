@@ -1,15 +1,27 @@
+:root {
+  --black : #000;
+}
+
 footer {
   text-align: center;
   padding: 1em 0 .3em 0;
+  position: fixed;
+  min-width: 100%;
+  bottom: 0;
+  background-color: black;
+  color; #fff;
 }
 
-/*-- Main Menu Styles--*/
+/*--
+Nav Styles--*/
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
+/*--
+Grid Styles--*/
 main {
   padding: 0 2em 2em 2em;
   display: grid;
