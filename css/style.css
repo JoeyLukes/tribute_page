@@ -25,7 +25,7 @@ nav {
 /*--
 Grid Styles--*/
 main {
-  padding: 2em 2em 2em;
+  padding: 0 2em 2em 2em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
