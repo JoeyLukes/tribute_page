@@ -36,10 +36,10 @@ main {
   grid-template-areas:
             "head head head"
             "one two three"
-            "over over over"
             "image1 blog1 blog1"
             "image2 blog2 blog2"
-            "image3 blog3 blog3";
+            "image3 blog3 blog3"
+            "over over over";
 }
 
 header {grid-area: head}
