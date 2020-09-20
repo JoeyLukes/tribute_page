@@ -1,15 +1,27 @@
 :root {
-  --black : #000;
+  --black : #1A1918;
+  --green : #7AB547;
+  --ltgrey : #F1E8DE;
+
+background-color: var(--ltgrey);
+}
+
+nav, footer {
+  background-color: var(--black);
+  color: var(--ltgrey);
+
 }
 
 footer {
   text-align: center;
-  padding: 0;
-  position: fixed;
+  padding: 1em;
   min-width: 100%;
   bottom: 0;
-  background-color: black;
-  color: #ffffff;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
 }
 
 /*--
@@ -18,8 +30,19 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: black;
-  color: #ffffff;
+}
+
+nav a {
+  padding: 1em;
+}
+
+nav a:link, nav a:visited {
+  color: var(--ltgrey);
+  text-decoration: none;
+}
+nav a:hover, nav a:active  {
+  color: var(--green);
+  text-decoration: underline;
 }
 
 /*--
@@ -27,10 +50,7 @@ Grid Styles--*/
 main {
   padding: 0 2em 2em 2em;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
-  justify-items: center;
-  align-items: center;
   grid-template-areas:
             "head head head"
             "one two three"
@@ -40,13 +60,19 @@ main {
             "over over over";
 }
 
-header {grid-area: head}
+header {grid-area: head;
+text-align: center;}
+header img {max-width: 100%;
+}
 
-.one {grid-area: one;}
-.two {grid-area: two;}
-.three {grid-area: three;}
+.one {grid-area: one;
+text-align: center;}
+.two {grid-area: two;
+text-align: center;}
+.three {grid-area: three;
+text-align: center;}
 .overview {grid-area: over;}
-#image1 {grid-area: image1;}
+#image1 {grid-area: image1; width: 33%;}
 #image2 {grid-area: image2;}
 #image3 {grid-area: image3;}
 .blog1 {grid-area: blog1;}
