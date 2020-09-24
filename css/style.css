@@ -130,3 +130,21 @@ p {
 footer p {
   text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+  main { grid-template-columns: 1fr;
+         grid-template-areas:
+            "head"
+            "image1"
+            "blog1"
+            "image2"
+            "blog2"
+            "image3"
+            "blog3";
+  }
+  .one, .two, .three {display: none;}
+}
+
+  #image1, #image2 {
+    border-style: none;
+  }
